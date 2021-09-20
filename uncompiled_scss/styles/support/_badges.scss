@@ -1,0 +1,27 @@
+.badge {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  &.badge_profile {
+    background-image: url("../images/profile.svg");
+    background-size: 70%;
+    background-position: 60% 50%;
+  }
+  &.badge_question {
+    background-image: url("../images/question.svg");
+    background-size: 50%;
+  }
+  &.badge_contacts {
+    background-image: url("../images/phone.svg");
+    background-size: 70%;
+  }
+  &.badge_pay {
+    background-image: url("../images/card.svg");
+    background-size: 70%;
+  }
+}

@@ -1,0 +1,29 @@
+@import "grid/main";
+@import "slick/main";
+
+@import "styles/support/normalize";
+@import "styles/support/variables";
+@import "styles/support/fonts";
+@import "styles/support/mixins";
+@import "styles/support/grid";
+@import "styles/support/common";
+@import "styles/support/buttons";
+@import "styles/support/checkmark";
+@import "styles/support/badges";
+
+@import "styles/components/header";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+@include tablet {
+  body {
+  }
+}
+
+@include desktop {
+  body {
+  }
+}

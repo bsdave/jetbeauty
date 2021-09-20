@@ -1,0 +1,20 @@
+$font_roboto_regular: '../fonts/roboto-regular';
+$font_roboto_bold: '../fonts/roboto-bold';
+
+// RobotoRegular
+@font-face {
+  font-family: 'Roboto';
+  src: url($font_roboto_regular + '.woff2') format('woff2'), /* Super Modern Browsers */
+  url($font_roboto_regular + '.woff') format('woff'), /* Pretty Modern Browsers */
+  url($font_roboto_regular + '.ttf') format('truetype'), /* Safari, Android, iOS */;
+  font-weight: 400;
+}
+
+// RobotoBold
+@font-face {
+  font-family: 'Roboto';
+  src: url($font_roboto_bold + '.woff2') format('woff2'), /* Super Modern Browsers */
+  url($font_roboto_bold + '.woff') format('woff'), /* Pretty Modern Browsers */
+  url($font_roboto_bold + '.ttf') format('truetype'), /* Safari, Android, iOS */;
+  font-weight: 700;
+}

@@ -1,0 +1,68 @@
+@media (max-width: map-get($container-max-widths, sm)) {
+  div[class^="col"] {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .mobile-dn {
+    display: none;
+  }
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &.disable-on-mobile {
+      padding-left: 0;
+      padding-right: 0;
+      overflow-x: hidden;
+    }
+  }
+
+  .row {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+
+
+@include tablet {
+  .t-order-0 {
+    order: 0;
+  }
+
+  .t-order-1 {
+    order: 1;
+  }
+
+  .carts {
+    .row.no-gutters-tablet {
+      > .col,
+      > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .disable-on-tablet {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@include desktop {
+  .d-order-0 {
+    order: 0;
+  }
+
+  .d-order-1 {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .wide-container {
+    max-width: 1345px;
+  }
+}
