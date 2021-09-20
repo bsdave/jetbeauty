@@ -11,12 +11,11 @@
   <script src="assets/javascript/slick.js"></script>
   <script src="assets/javascript/main.js"></script>
 
-  <title>Название сайта</title>
+  <title>Jet Beauty. Красота сейчас - деньги потом.</title>
   <meta name="description" content="Описание сайта">
 </head>
 
 <body>
-
   <header class="header">
     <div class="header-background"></div>
     <div class="mobile-header-box">
@@ -45,8 +44,123 @@
   <div class="first-screen-box">
     <img class="first-screen-image first-screen-image_mobile" src="assets/images/first-screen-mobile.png">
     <img class="first-screen-image first-screen-image_desktop" src="assets/images/first-screen-desktop.png">
-    <h1 class="slogan-title"></h1>
+    <h1 class="slogan-title">Красота сейчас -</h1>
     <span class="slogan-subtitle">деньги потом</span>
+  </div>
+
+  <div class="calculator-box">
+    <div class="container">
+
+      <div class="calculator">
+        <form action="#">
+          <div class="calculator-block">
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="calculator-block-label-box">
+                  <div class="calculator-block-label">
+                    <div class="label-box">
+                      <label for="loan-amount">Сколько вы хотите вложить в себя?</label>
+                    </div>
+
+                    <div class="input-group">
+                      <div class="input-with-label">
+                        <input type="text" class="input bold" id="loan-amount" value="7 000 000">
+                        <span class="label">₸</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="range-box">
+                    <input type="range" min="300000" max="7000000" value="50%" step="1000" class="range slider" id="myRange">
+                    <div class="pips">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="range-values">
+                      <span class="range-value">500 000 ₸</span>
+                      <span class="range-value">1 000 000 ₸</span>
+                      <span class="range-value">1 500 000 ₸</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-12 col-md-6">
+                <div class="calculator-block-label-box">
+                  <div class="calculator-block-label">
+                    <div class="label-box">
+                      <label for="loan-term">Выберите удобный срок рассрочки</label>
+                    </div>
+
+                    <div class="input-group">
+                      <div class="input-with-label">
+                        <input type="text" class="input bold short" id="loan-term" value="84">
+                        <span class="label">мес.</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="range-box">
+                    <input type="range" min="3" max="84" value="84" step="1" class="range slider" id="myRange">
+                    <div class="pips">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="range-values">
+                      <span class="range-value">3 мес.</span>
+                      <span class="range-value">21 мес.</span>
+                      <span class="range-value">42 мес.</span>
+                      <span class="range-value">62 мес</span>
+                      <span class="range-value">84 мес.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 offset-md-6">
+                <div class="calculator-output">
+                  <div class="purpose-amount">
+                    <span class="purpose">Ежемесячный платеж:</span>
+                    <span class="amount"><span class="dynamic bold">203 549</span>₸</span>
+                  </div>
+                </div>
+
+                <button class="button" type="submit">Далее</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
   </div>
 
 </body>
