@@ -1,7 +1,8 @@
 const { watch, src, dest } = require('gulp'),
   sass = require('gulp-sass'),
   autoprefixer = require('gulp-autoprefixer'),
-  uglifyjs = require('gulp-uglify-es').default;
+  uglifyjs = require('gulp-uglify-es').default,
+  concat = require('gulp-concat');
 
 function css() {
   return src('uncompiled_scss/style.scss')
@@ -16,7 +17,8 @@ function css() {
 };
 
 function js() {
-  return src('uncompiled_js/*.js')
+  return src(['uncompiled_js/jquery.js', 'uncompiled_js/swiper.js', 'uncompiled_js/main.js'])
+    .pipe(concat('main.js'))
     .pipe(uglifyjs())
     .pipe(dest('assets/javascript/'))
 };
