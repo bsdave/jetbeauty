@@ -19,17 +19,37 @@ $(function () {
     $(`#${$(this).data().modalId}`).toggleClass('opened');
   });
 
-  new Swiper('.swiper', {
+  new Swiper('.partners-swiper', {
     loop: true,
+    paginationClickable: true,
     pagination: {
-      el: '.swiper-pagination',
+      el: '.partners-swiper-pagination',
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.partners-swiper-button-next',
+      prevEl: '.partners-swiper-button-prev',
+    },
+  });
+
+  new Swiper('.services-swiper', {
+    spaceBetween: 15,
+    slidesPerView: 3,
+    loop: true,
+    breakpoints: {
+      992: {
+        slidesPerView: 7
+      },
+    },
+    pagination: {
+      el: '.services-swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.services-swiper-button-next',
+      prevEl: '.services-swiper-button-prev',
     },
   });
 });
+
 
 const initializeRanges = () => {
   $('.range').each(function () {

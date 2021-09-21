@@ -1,0 +1,85 @@
+.services-box {
+  margin-bottom: 120px;
+  background-image: url("../images/available-services-mobile.svg");
+  padding-top: 35px;
+  padding-bottom: 35px;
+  position: relative;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  .services-swiper-pagination {
+    bottom: -50px;
+  }
+
+  .services {
+    margin-top: 25px;
+
+    .swiper-slide {
+      background: none;
+    }
+
+    .service {
+      .service-image {
+        width: 49px;
+        height: 49px;
+        background: #FFFFFF;
+        border-radius: 18px;
+
+        padding: 10px;
+        object-fit: contain;
+      }
+      .title {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .services-box {
+    background-image: url("../images/available-services-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+    .services-swiper-pagination {
+      bottom: 0;
+    }
+
+    .services-swiper-button-prev,
+    .services-swiper-button-next {
+      position: absolute;
+    }
+
+    .services {
+      position: relative;
+      margin-left: 100px;
+      margin-right: 100px;
+
+      .service {
+        .service-image {
+          width: 49px;
+          height: 49px;
+          background: #FFFFFF;
+          border-radius: 18px;
+  
+          padding: 10px;
+          object-fit: contain;
+        }
+        .title {
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
