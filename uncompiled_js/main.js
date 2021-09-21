@@ -48,6 +48,18 @@ $(function () {
       prevEl: '.services-swiper-button-prev',
     },
   });
+
+  new Swiper('.process-swiper', {
+    slidesPerView: 1,
+    breakpoints: {
+      992: {
+        slidesPerView: 3
+      },
+    },
+    pagination: {
+      el: '.process-swiper-pagination',
+    }
+  });
 });
 
 
