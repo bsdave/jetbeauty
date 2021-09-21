@@ -79,6 +79,6 @@ const recalculateRangeValue = (range) => {
   const current = range.value - min;
   const percentage = current * 100 / max;
 
-  $(range).css('background', `linear-gradient(90deg, #DD89BB, #DD89BB, #DD89BB ${percentage}%, #B7B7B7 ${percentage}%, #B7B7B7 100%)`);
+  $(range).css('background', `linear-gradient(90deg, #DD89BB, #DD89BB, #DD89BB ${percentage}%, transparent ${percentage}%, transparent 100%)`);
   $(range).parents('.calculator-block-label-box').find('.input.bold').val(range.value);
 }

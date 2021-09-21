@@ -1,28 +1,31 @@
 .button {
   display: inline-block;
   text-align: center;
-  padding: 15px 0;
+  padding: 5px 0;
   border-radius: 30px;
   background: linear-gradient(180deg, #DD89BC 0%, #F3A6D0 100%);
   border-radius: 5px;
   border: none;
-  width: 100%;
+  width: 123px;
   font-size: 24px;
   color: #FFFFFF;
   text-decoration: none;
 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
   &.empty,
   &.negative {
     border-radius: 27.5px;
     border: solid 3px #7ab800;
     background-color: #ffffff;
-
     font-size: 17px;
     font-weight: 500;
     line-height: 1.06;
     color: #7ab800;
   }
-
   &.empty {
     border: solid 3px #ffffff;
     background-color: transparent;
@@ -35,7 +38,6 @@
     &.mw292 {
       max-width: 292px;
     }
-
     &.negative {
       transition: 300ms;
       &:hover {
@@ -44,7 +46,6 @@
         color: white;
       }
     }
-
     &.empty {
       &:hover {
         border: solid 3px #ffffff;
