@@ -1,5 +1,3 @@
-
-
 $(function () {
   $('html').addClass('js');
 
@@ -21,21 +19,15 @@ $(function () {
     $(`#${$(this).data().modalId}`).toggleClass('opened');
   });
 
-  $('.carousel').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false
-        }
-      }
-    ]
+  new Swiper('.swiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 });
 

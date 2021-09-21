@@ -1,5 +1,4 @@
 @import "grid/main";
-@import "slick/main";
 
 @import "styles/support/normalize";
 @import "styles/support/variables";
@@ -10,10 +9,12 @@
 @import "styles/support/buttons";
 @import "styles/support/checkmark";
 @import "styles/support/badges";
+@import "styles/support/swiper";
 
 @import "styles/components/header";
 @import "styles/components/first_screen";
 @import "styles/components/calculator";
+@import "styles/components/partners";
 
 body {
   font-family: "Roboto", sans-serif;
