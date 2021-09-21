@@ -116,7 +116,7 @@
     .purpose-amount {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
       margin-bottom: 5px;
       .purpose {
         font-size: 12px;
@@ -177,7 +177,7 @@
     .calculator-output {
       .purpose-amount {
         justify-content: flex-start;
-        align-items: baseline;
+        
 
         .purpose {
           margin-right: 15px;
