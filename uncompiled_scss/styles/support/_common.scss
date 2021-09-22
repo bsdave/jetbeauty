@@ -17,6 +17,10 @@
   line-height: 28px;
   color: #000000;
   text-align: center;
+
+  &.left {
+    text-align: left;
+  }
 }
 
 .centered-content {
@@ -28,6 +32,12 @@
 
 .margin-bottom {
   margin-bottom: 10px;
+}
+
+.w30 {
+  display: block;
+  width: 30px;
+  flex-shrink: 0;
 }
 
 @include desktop {
