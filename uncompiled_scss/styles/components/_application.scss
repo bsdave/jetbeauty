@@ -1,0 +1,39 @@
+.application-form-box {
+  position: relative;
+  padding-top: 20px;
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 37px;
+    background-color: #EDABDF;
+    position: absolute;
+    top: 0;
+  }
+  .checkbox-place {
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ACACAC;
+
+    a {
+      color: black;
+    }
+  }
+}
+
+@include desktop {
+  .application-form-box {
+    &::after {
+      display: none;
+    }
+
+    .checkbox-place {
+      padding: 20px 20%;
+    }
+  }
+}

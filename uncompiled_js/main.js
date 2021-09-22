@@ -3,6 +3,11 @@ $(function () {
 
   initializeRanges();
 
+  // Проверка чекбокса
+  $('#accept-rules-checkbox').click(function () {
+    console.log($('#accept-rules-checkbox').is(":checked"))
+  });
+
   $('.menu-button').click(function () {
     $('.header').addClass('opened');
   });

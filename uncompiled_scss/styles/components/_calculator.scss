@@ -4,6 +4,17 @@
 
 .calculator-block-label-box {
   margin-bottom: 25px;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 37px;
+    background-color: #EDABDF;
+    position: absolute;
+    bottom: -30px;
+  }
 }
 
 .calculator {
@@ -34,6 +45,7 @@
       font-size: 24px;
     }
     .input {
+      margin-bottom: 0;
       display: block;
       width: 110px;
       font-size: 26px;
@@ -75,17 +87,16 @@
     appearance: none;
     border-radius: 50%;
     cursor: pointer;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    border: solid 5px #DD89BB;
+    width: 20px;
+    height: 20px;
+    border: solid 3px #DD89BB;
     background-color: #ffffff;
   }
   .slider::-moz-range-thumb {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    border: solid 5px #DD89BB;
+    border: solid 3px #DD89BB;
     background-color: #ffffff;
     cursor: pointer;
   }
@@ -184,5 +195,11 @@
   }
   .calculator-box {
     margin-bottom: 160px;
+  }
+
+  .calculator-block-label-box {
+    &::after {
+      display: none;
+    }
   }
 }

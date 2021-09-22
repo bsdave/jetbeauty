@@ -1,0 +1,42 @@
+.input {
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  background: #FAFAFA;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #767676;
+  padding: 12px;
+}
+
+.phone-input {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  &::after {
+    content: "+7";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 44px;
+    background: #ECECEC;
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B7B7B7;
+  }
+  .input {
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 0;
+  }
+}

@@ -7,9 +7,10 @@
 @import "styles/support/grid";
 @import "styles/support/common";
 @import "styles/support/buttons";
-@import "styles/support/checkmark";
+@import "styles/support/checkbox";
 @import "styles/support/badges";
 @import "styles/support/swiper";
+@import "styles/support/inputs";
 
 @import "styles/components/header";
 @import "styles/components/first_screen";
@@ -18,6 +19,7 @@
 @import "styles/components/services";
 @import "styles/components/process";
 @import "styles/components/footer";
+@import "styles/components/application";
 
 body {
   font-family: "Roboto", sans-serif;
