@@ -32,6 +32,12 @@
           font-weight: bold;
         }
       }
+      &:last-child {
+        border: none;
+        a {
+          font-weight: bold;
+        }
+      }
     }
   }
   .profile-block {
