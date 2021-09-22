@@ -40,6 +40,14 @@
   flex-shrink: 0;
 }
 
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.to-right {
+  text-align: right;
+}
+
 @include desktop {
   .logo {
     width: 119px;

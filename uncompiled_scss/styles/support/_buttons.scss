@@ -9,22 +9,28 @@
   font-size: 24px;
   color: #FFFFFF;
   text-decoration: none;
-
   font-style: normal;
   font-weight: normal;
-
   margin-top: 10px;
+  &.gray {
+    color: #000000;
+    background: #E4E4E4;
+  }
+  &.small {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 8px;
+  }
 }
 
 @include desktop {
   .button {
     font-size: 14px;
     padding: 6px;
-
     &.mw123 {
       max-width: 123px;
     }
-
     &.mw200 {
       max-width: 200px;
     }
