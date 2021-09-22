@@ -37,10 +37,17 @@
 }
 
 @include desktop {
+  .first-screen-box {
+    &.congrats {
+      .slogan-subtitle {
+        display: none;
+      }
+    }
+  }
+
   .slogan-subtitle {
     font-size: 36px;
   }
-
   .first-screen-image_mobile {
     display: none;
   }

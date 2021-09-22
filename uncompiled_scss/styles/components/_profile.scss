@@ -1,0 +1,68 @@
+.profile-box {
+  margin-top: 40px;
+  .profile-menu {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      margin: 8px 0;
+      width: 45%;
+      border: 1px solid #ECECEC;
+      border-radius: 5px;
+      padding: 9px;
+      a {
+        display: inline-block;
+        width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #767676;
+        text-decoration: none;
+      }
+      &.active {
+        border: 1px solid #EDABDF;
+        a {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .profile-block {
+    border-bottom: 3px solid #ECECEC;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@include desktop {
+  .profile-box {
+    .profile-menu {
+      li {
+        width: 100%;
+        a {
+
+          font-style: normal;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: left;
+          padding-left: 10%;
+        }
+
+        &:last-child {
+          margin-top: 25px;
+          border: none;
+          a {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

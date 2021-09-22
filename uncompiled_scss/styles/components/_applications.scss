@@ -1,0 +1,56 @@
+.applications {
+  margin-bottom: 100px;
+  
+  .approve-rules {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #646464;
+  }
+  .status {
+    &.green {
+      display: inline-block;
+      height: 40px;
+      text-align: center;
+      background: #84E574;
+      border: 1px solid #ECECEC;
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #FFFFFF;
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+.application-info {
+  display: flex;
+  justify-content: space-between;
+
+  .application-number {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+    background: #FAFAFA;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 5px 10px;
+    height: 40px;
+
+    flex-grow: 1;
+    flex-basis: 60%;
+  }
+
+  .status {
+    flex-grow: 0;
+    flex-basis: 30%;
+  }
+}

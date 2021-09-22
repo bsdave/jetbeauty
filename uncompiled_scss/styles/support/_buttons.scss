@@ -25,6 +25,13 @@
   &.short {
     width: 69px;
   }
+
+  &.green {
+    background: #84E574;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: underline;
+  }
 }
 
 @include desktop {
