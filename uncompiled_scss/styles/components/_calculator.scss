@@ -35,7 +35,7 @@
     }
     .input {
       display: block;
-      width: 130px;
+      width: 110px;
       font-size: 26px;
       line-height: 0.94;
       font-weight: 500;
@@ -57,7 +57,7 @@
         font-weight: bold;
       }
       &.short {
-        width: 50px;
+        width: 35px;
       }
     }
   }
@@ -166,9 +166,6 @@
       display: block;
       .input-with-label {
         margin-top: 15px;
-        .input {
-          text-align: left;
-        }
       }
     }
     .calculator-block {
