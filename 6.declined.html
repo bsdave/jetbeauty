@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/styles/style.css">
+
+  <script src="assets/javascript/main.js"></script>
+
+  <title>Jet Beauty. Красота сейчас - деньги потом.</title>
+  <meta name="description" content="Описание сайта">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-background"></div>
+    <div class="mobile-header-box">
+      <div class="container">
+        <div class="mobile-header d-flex justify-content-between align-items-center">
+          <a href="#" class="logo mobile"></a>
+          <button class="menu-button"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header-box">
+        <a href="#" class="logo"></a>
+
+        <ul class="header-menu">
+          <li><a href="#" class="header-menu__link active"><span class="badge badge_profile"></span>Личный кабинет</a></li>
+          <li><a href="#" class="header-menu__link"><span class="badge badge_question"></span>Вопросы и ответы</a></li>
+          <li><a href="#" class="header-menu__link"><span class="badge badge_contacts"></span>Контакты</a></li>
+          <li><a href="#" class="header-menu__link"><span class="badge badge_pay"></span>Оплатить</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="first-screen-box">
+    <img class="first-screen-image first-screen-image_mobile" src="assets/images/first-screen-mobile.png">
+    <img class="first-screen-image first-screen-image_desktop" src="assets/images/first-screen-desktop.png">
+    <h1 class="slogan-title">Красота сейчас -</h1>
+    <span class="slogan-subtitle">деньги потом</span>
+  </div>
+
+  <div class="profile-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <ul class="profile-menu">
+            <li class="active"><a href="#">Заявки</a></li>
+            <li><a href="#">Профиль</a></li>
+            <li><a href="#">Платежи</a></li>
+            <li><a href="#">Выход</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-8 offset-md-1">
+          <div class="profile">
+            <h3 class="common-title desktop-left">Личный кабинет</h3>
+
+            <div class="profile-block">
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">ФИО</span></div>
+                <div class="col-9 col-md-9">
+                  <input class="input" type="text" value="Канарина Олеся Викторовна" disabled>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 col-md-3"></div>
+                <div class="col-9 col-md-9">
+                  <div class="d-flex flex-column flex-md-row">
+                    <div class="file-upload-wrapper success" data-text="Удостоверение личности">
+                      <input name="file-upload-field" type="file" class="file-upload-field" value="">
+                    </div>
+                    <span class="w30"></span>
+                    <div class="file-upload-wrapper success" data-text="Биометрия">
+                      <input name="file-upload-field" type="file" class="file-upload-field" value="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">ИИН</span></div>
+                <div class="col-9 col-md-9">
+                  <input class="input" type="text" value="123 456 789 101" disabled>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Телефон</span></div>
+                <div class="col-9 col-md-9">
+                  <input class="input" type="text" value="+7 (701) 123 45 67" disabled>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="applications">
+            <h3 class="common-title desktop-left">Мои заявки</h3>
+
+            <div class="applications-block">
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Номер договора</span></div>
+                <div class="col-9 col-md-9">
+                  <div class="application-info">
+                    <span class="application-number">100230345</span>
+                    <span class="w30"></span>
+                    <span class="status red">Отказано</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-3"></div>
+                <div class="col-9 col-md-9">
+                  <div class="approve-rules">
+                    <p>К сожалению, Вам отказано в рассрочке</p>
+                    <p>Попробуйте подать заявку через 2 недели. Будем ждать вас!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Сумма займа</span></div>
+                <div class="col-9 col-md-9">
+                  <div class="money-input">
+                    <input class="input" type="text" value="500 000" disabled>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Срок займа</span></div>
+                <div class="col-9 col-md-9">
+                  <input class="input" type="text" value="12 мес." disabled>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Дата возврата</span></div>
+                <div class="col-9 col-md-9">
+                  <input class="input" type="text" value="02.10.2021" disabled>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-3"><span class="theme-about">Сумма к возврату</span></div>
+                <div class="col-9 col-md-9">
+                  <div class="money-input">
+                    <input class="input" type="text" value="500 000" disabled>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-box">
+    <div class="container">
+      <div class="footer-menu">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="footer-top">
+              <img src="assets/images/black-logo.svg">
+              <p>Сервис для удобной рассрочки в сфере красоты и здоровья</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="row">
+              <div class="col-5 col-md-3">
+                <h4 class="bold">Контакты</h4>
+                <a href="mailto:ok@jetbeauty.kz">ok@jetbeauty.kz</a>
+                <a href="tel:+77279573512">+7 (727) 957-35-12</a>
+              </div>
+              <div class="col-7 col-md-3">
+                <h4 class="bold">График работы</h4>
+                <p>Пн.-пт. 9.00-19.00</p>
+                <a href="#" class="bold">Внести платеж</a>
+              </div>
+              <div class="col-5 col-md-3">
+                <h4 class="bold">O Jet Finance</h4>
+                <a href="#">Контакты</a>
+                <a href="#">Вопросы и ответы</a>
+                <a href="#">Страхование</a>
+              </div>
+              <div class="col-7 col-md-3">
+                <h4 class="bold">Юридическая информация</h4>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Политика файлов cookie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rules">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <p>1. Мы предлагаем рассрочку на услуги beauty-сферы</p>
+            <p>2. Сумма кредитования: от 300 000 до 3 000 000 тенге</p>
+            <p>3. Период погашения долга: от 3 до 12 месяцев</p>
+            <p>4. Ставка по кредиту 0%. При этом никаких комиссий за выдачу и обслуживание нет</p>
+          </div>
+          <div class="col-12 col-md-8">
+            <p>5. Комиссия за досрочное и частичное погашение 0%</p>
+            <p>6. В случае, если вы не можете своевременно погасить кредит, сразу же свяжитесь с нами. Мы обсудим с вами возможные варианты решения: пересмотр графика платежей, частичное погашение текущего платежа или продажа залогового автомобиля, в случае
+              если кредит вам больше не подходит.</p>
+            <p>7. Пример рассрочки: срок - 12 месяцев, цена процедуры - 1 200 000 тенге, ежемесячный платеж – 120 000 тенге</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
