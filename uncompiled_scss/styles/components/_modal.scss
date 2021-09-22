@@ -1,0 +1,50 @@
+.modal-box {
+  display: none;
+
+  &.opened {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    &::before {
+      display: block;
+      content: "";
+      position: fixed;
+      z-index: 999;
+      background: rgba(0, 0, 0, 0.4);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .modal {
+      position: relative;
+      z-index: 9999;
+      margin: auto;
+      background: #FFFFFF;
+      box-shadow: 0px 43px 32px -19px rgba(0, 0, 0, 0.25);
+      border-radius: 62px;
+
+      height: 350px;
+      width: 80%;
+      max-width: 888px;
+      
+
+      padding: 30px;
+
+      .camera-window {
+        min-height: 220px;
+        background: black;
+        border-radius: 26px;
+      }
+
+      .button {
+        margin: 0;
+      }
+    }
+  }
+}
