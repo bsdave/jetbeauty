@@ -45,6 +45,9 @@ $(function () {
     slidesPerView: 3,
     loop: true,
     breakpoints: {
+      768: {
+        slidesPerView: 5
+      },
       992: {
         slidesPerView: 7
       },

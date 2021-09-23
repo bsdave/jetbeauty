@@ -1,6 +1,6 @@
 .footer-box {
   background-image: url("../images/footer-background-mobile.svg");
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 80px;
   
@@ -58,6 +58,5 @@
 @include tablet {
   .footer-box {
     background-image: url("../images/footer-background-desktop.svg");
-    background-size: 100% auto;
   }
 }
