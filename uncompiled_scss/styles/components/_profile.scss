@@ -44,6 +44,10 @@
     border-bottom: 3px solid #ECECEC;
     padding-bottom: 15px;
     margin-bottom: 30px;
+
+    &.no-border {
+      border-bottom: none;
+    }
   }
 }
 
