@@ -20,6 +20,10 @@ $(function () {
     $(this).parents('.modal-box').toggleClass('opened');
   });
 
+  $('.question-answer').click(function () {
+    $(this).toggleClass('opened');
+  });
+
   $('.open-modal').click(function () {
     $(`#${$(this).data().modalId}`).toggleClass('opened');
   });
