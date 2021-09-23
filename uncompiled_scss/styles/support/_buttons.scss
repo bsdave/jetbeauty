@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   text-align: center;
-  padding: 15px;
+  padding: 8px;
   background: linear-gradient(180deg, #DD89BC 0%, #F3A6D0 100%);
   border-radius: 5px;
   border: none;
@@ -32,12 +32,16 @@
     padding: 10px;
     text-decoration: underline;
   }
+
+  &.height-fix {
+    padding: 15px;
+  }
 }
 
 @include desktop {
   .button {
     font-size: 14px;
-    padding: 6px;
+    
     &.mw123 {
       max-width: 123px;
     }
