@@ -33,6 +33,7 @@
 .application-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .application-number {
     display: inline-block;
@@ -49,11 +50,16 @@
     height: 40px;
 
     flex-grow: 1;
-    flex-basis: 60%;
+    margin-bottom: 10px;
   }
 
   .status {
-    flex-grow: 0;
-    flex-basis: 30%;
+    flex-basis: 90px;
+  }
+}
+
+@include desktop {
+  .application-info {
+    flex-wrap: nowrap
   }
 }
