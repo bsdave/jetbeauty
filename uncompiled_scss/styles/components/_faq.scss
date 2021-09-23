@@ -2,11 +2,9 @@
   margin: 70px 0;
   .questions-answers {
     margin-top: 20px;
-
     .question-answer {
       position: relative;
       margin-bottom: 30px;
-
       .question {
         position: relative;
         background: #FFEDEF;
@@ -16,7 +14,6 @@
         font-size: 14px;
         line-height: 16px;
         color: #000000;
-
         &::after {
           content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDkgMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjMyOTEgMTFMNi42NzE4MiA2TDEuMzI5MSAxIiBzdHJva2U9IiNEMTkzOUEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=");
           width: 40px;
@@ -24,7 +21,6 @@
           justify-content: center;
           align-items: center;
           position: absolute;
-
           right: 0;
           top: 0;
           bottom: 0;
@@ -61,16 +57,16 @@
 @include desktop {
   .faq-box {
     .questions-answers {
-      position: relative;
-      .question {
-        position: relative;
-        background: #FFEDEF;
-        border-radius: 6px;
-        padding: 10px;
-        padding-left: 25px;
-        padding-right: 30%;
-        &::after {
-          background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDkgMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjMyOTEgMTFMNi42NzE4MiA2TDEuMzI5MSAxIiBzdHJva2U9IiNEMTkzOUEiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=")
+      .question-answer {
+        .question {
+          font-size: 18px;
+          padding: 10px;
+          padding-left: 25px;
+          padding-right: 20%;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
