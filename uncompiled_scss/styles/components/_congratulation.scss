@@ -1,0 +1,35 @@
+.congratulations-box {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.congratulation {
+  background: #FAFAFA;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  padding: 50px;
+  .title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #898989;
+  }
+}
+
+.congratulation-sign {
+  display: inline-block;
+  width: 120px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg width='137' height='106' viewBox='0 0 137 106' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 47.5L58 91.5L123 14' stroke='%23F9D8DE' stroke-width='28' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+
+@include desktop {
+  .congratulation {
+    padding: 100px;
+  }
+}
