@@ -72,6 +72,21 @@
   font-weight: bold !important;
 }
 
+.paragraph {
+  color: #9A9A9A;
+  font-size: 18px;
+}
+
+.paragraph_left {
+  text-align: left;
+}
+
+.image {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
 @include desktop {
   .logo {
     width: 119px;

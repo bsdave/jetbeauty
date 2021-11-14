@@ -38,6 +38,23 @@
   }
 }
 
+.button-squared {
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 15px;
+  display: inline-block;
+
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration-line: underline;
+
+  color: #267ED0;
+  text-align: center;
+  width: 100%;
+}
+
 @include desktop {
   .button {
     font-size: 14px;
