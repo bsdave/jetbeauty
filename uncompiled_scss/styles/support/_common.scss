@@ -87,6 +87,14 @@
   height: auto;
 }
 
+.empty-height-100 {
+  height: 100px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 @include desktop {
   .logo {
     width: 119px;
